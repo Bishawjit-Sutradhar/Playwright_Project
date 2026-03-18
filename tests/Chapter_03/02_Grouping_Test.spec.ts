@@ -1,6 +1,8 @@
 import { test, expect } from '@playwright/test';
 
-test('Test 1', async ({ page }) => {
+test.describe('Smoke Testing',()=>{
+
+  test('Test 1', async ({ page }) => {
   console.log('Test execution started...');
   await page.goto('https://www.youtube.com/');
 
@@ -18,6 +20,9 @@ test('Test 1', async ({ page }) => {
   await expect(videoTitle).toContainText('Playwright Tutorial');
 });
 
+});
+
+test.describe('Regression Testing',()=>{
 test('Test 2', async ({ page }) => {
   console.log('Test execution started...');
   await page.goto('https://www.youtube.com/');
@@ -36,7 +41,7 @@ test('Test 2', async ({ page }) => {
   await expect(videoTitle).toContainText('Playwright Tutorial');
 });
 
-test.only('Test 3', async ({ page }) => {
+test('Test 3', async ({ page }) => {
   console.log('Test execution started...');
   await page.goto('https://www.youtube.com/');
 
@@ -53,3 +58,7 @@ test.only('Test 3', async ({ page }) => {
 
   await expect(videoTitle).toContainText('Playwright Tutorial');
 });
+});
+
+
+

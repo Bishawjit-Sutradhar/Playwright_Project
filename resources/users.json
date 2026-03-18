@@ -1,0 +1,42 @@
+[
+  {
+    "fullName": "Cristina Raynor",
+    "email": "test7856@gmail.com",
+    "password": "1234",
+    "phoneNumber": "01206751313",
+    "nid": "12345698",
+    "role": "Customer"
+  },
+  {
+    "fullName": "Moses Stiedemann III",
+    "email": "test4683@gmail.com",
+    "password": "1234",
+    "phoneNumber": "01207821437",
+    "nid": "12345698",
+    "role": "Customer"
+  },
+  {
+    "fullName": "Lucinda Upton",
+    "email": "test7820@gmail.com",
+    "password": "1234",
+    "phoneNumber": "01207391297",
+    "nid": "12345698",
+    "role": "Customer"
+  },
+  {
+    "fullName": "Alberto Sawayn DVM",
+    "email": "test6215@gmail.com",
+    "password": "1234",
+    "phoneNumber": "01201361172",
+    "nid": "12345698",
+    "role": "Customer"
+  },
+  {
+    "fullName": "Elda Turner",
+    "email": "test4116@gmail.com",
+    "password": "1234",
+    "phoneNumber": "01206378835",
+    "nid": "12345698",
+    "role": "Customer"
+  }
+]
